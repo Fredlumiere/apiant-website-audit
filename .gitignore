@@ -2,3 +2,4 @@ node_modules/
 dist/
 .unlighthouse/
 .DS_Store
+.vercel
