@@ -4,7 +4,7 @@ Automated weekly Lighthouse + SEO audit of [apiant.com](https://apiant.com).
 
 - **Dashboard:** https://apiant-website-audit-reports.pages.dev
 - **Schedule:** every Monday at 10:00 UTC via GitHub Actions
-- **Scope:** English canonical URLs from `apiant.com/sitemap.xml` (37 pages)
+- **Scope:** English marketing URLs from `apiant.com/sitemap/sitemap0.xml` (65 pages). The other sitemap shards (`sitemap1-3.xml`) contain ~132k servlet-generated `/connect/X-to-Y` combo pages — too many for a weekly Lighthouse crawl and mostly templated, so we skip them.
 
 ## Manual run
 
