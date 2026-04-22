@@ -4,7 +4,8 @@
   "description": "Scheduled Lighthouse + SEO audit of apiant.com published via Cloudflare Pages",
   "private": true,
   "scripts": {
-    "audit": "unlighthouse-ci --site https://apiant.com --build-static --output-path ./dist --urls https://apiant.com/sitemap/sitemap0.xml"
+    "audit": "unlighthouse-ci --site https://apiant.com --build-static --output-path ./dist --urls https://apiant.com/sitemap/sitemap0.xml",
+    "build": "echo 'Static output already in ./dist'"
   },
   "devDependencies": {
     "@unlighthouse/cli": "^0.17.0"

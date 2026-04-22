@@ -1,6 +1,9 @@
 {
   "version": 2,
   "cleanUrls": true,
+  "framework": null,
+  "buildCommand": "echo skip",
+  "installCommand": "echo skip",
   "outputDirectory": "dist",
   "headers": [
     {
