@@ -1,0 +1,12 @@
+{
+  "name": "apiant-website-audit",
+  "version": "1.0.0",
+  "description": "Scheduled Lighthouse + SEO audit of apiant.com published via Cloudflare Pages",
+  "private": true,
+  "scripts": {
+    "audit": "unlighthouse-ci --site https://apiant.com --build-static --output-path ./dist --urls /sitemap.xml"
+  },
+  "devDependencies": {
+    "@unlighthouse/cli": "^0.17.0"
+  }
+}
